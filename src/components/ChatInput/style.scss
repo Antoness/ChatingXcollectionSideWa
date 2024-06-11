@@ -1,0 +1,39 @@
+$color_1: #fff;
+
+.chat-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  background: #f9f9f9;
+
+  textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    max-height: 200px;
+    overflow-y: auto;
+    line-height: 1.5;
+  }
+
+  .btn__send {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: #6c63ff;
+    color: $color_1;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    &:hover {
+      background: #5755d9;
+    }
+  }
+}
